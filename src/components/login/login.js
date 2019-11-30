@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import { Formik } from 'formik'
 
 
-import { Card, Button, CardHeader, CardFooter, CardBody,
-    CardTitle, CardText } from 'reactstrap';
+import { Card, CardBody,CardTitle } from 'reactstrap';
 
 class Login extends Component {
     componentDidMount() { }
@@ -62,7 +61,6 @@ class Login extends Component {
     render() {
         return (
             <div className="login-box">
-                 
                 <div className='mt-5 mb-sm-5'></div>
                 <div className='row justify-content-center'>
                     <div className='col-md-6'>
@@ -88,8 +86,7 @@ class Login extends Component {
                     {/* Error */}
                     {/*<span style={{ color: 'red' }}>{this.props.loginReducer.result &&
                         this.props.loginReducer.result.data.result != 'ok' &&
-                    this.props.loginReducer.result.data.message}</span>*/}
-                
+                    this.props.loginReducer.result.data.message}</span>*/} 
                  
             </div>
         );
